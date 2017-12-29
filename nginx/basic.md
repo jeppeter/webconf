@@ -6,7 +6,7 @@
 
 ## change configuration /etc/nginx/sites-available/default  this is in ubuntu
 
-
+```conf
 server {
         ....
         location ~.php$ {
@@ -18,7 +18,7 @@ server {
         }
         ...
 }
-
+```
 
 > note 
 > <font color="red">fastcgi_pass unix:/var/run/php/php7.1-fpm.sock;</font> 
